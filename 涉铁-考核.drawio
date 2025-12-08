@@ -99,40 +99,43 @@
           <mxGeometry height="60" width="120" x="300" y="525" as="geometry" />
         </mxCell>
         <mxCell id="w0okvqclMt9qEUiKgVDm-28" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="examine" vertex="1">
-          <mxGeometry height="312" width="320" x="200" y="640" as="geometry" />
+          <mxGeometry height="338" width="320" x="200" y="610" as="geometry" />
         </mxCell>
         <mxCell id="w0okvqclMt9qEUiKgVDm-29" parent="w0okvqclMt9qEUiKgVDm-28" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="id:char(32)" vertex="1">
           <mxGeometry height="26" width="320" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="w0okvqclMt9qEUiKgVDm-53" parent="w0okvqclMt9qEUiKgVDm-28" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="考核周期:str" vertex="1">
+        <mxCell id="w0okvqclMt9qEUiKgVDm-53" parent="w0okvqclMt9qEUiKgVDm-28" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="考核周期(月、季度、半年、年):int" vertex="1">
           <mxGeometry height="26" width="320" y="52" as="geometry" />
         </mxCell>
-        <mxCell id="w0okvqclMt9qEUiKgVDm-30" parent="w0okvqclMt9qEUiKgVDm-28" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="考核类型: char(32)" vertex="1">
+        <mxCell id="a0dgbnI9D-hWbGn1KOsf-7" parent="w0okvqclMt9qEUiKgVDm-28" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="考核周期名称:str" vertex="1">
           <mxGeometry height="26" width="320" y="78" as="geometry" />
         </mxCell>
-        <mxCell id="w0okvqclMt9qEUiKgVDm-31" parent="w0okvqclMt9qEUiKgVDm-28" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="考核对象(手填或选填的name): str" vertex="1">
+        <mxCell id="w0okvqclMt9qEUiKgVDm-30" parent="w0okvqclMt9qEUiKgVDm-28" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="考核类型: char(32)" vertex="1">
           <mxGeometry height="26" width="320" y="104" as="geometry" />
         </mxCell>
-        <mxCell id="w0okvqclMt9qEUiKgVDm-34" parent="w0okvqclMt9qEUiKgVDm-28" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="是否选择考核对象(true:选填，false:手填): boolean" vertex="1">
+        <mxCell id="w0okvqclMt9qEUiKgVDm-31" parent="w0okvqclMt9qEUiKgVDm-28" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="考核对象(手填或选填的name): str" vertex="1">
           <mxGeometry height="26" width="320" y="130" as="geometry" />
         </mxCell>
-        <mxCell id="w0okvqclMt9qEUiKgVDm-35" parent="w0okvqclMt9qEUiKgVDm-28" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="选择考核对象id(选填的id): char(32)" vertex="1">
+        <mxCell id="w0okvqclMt9qEUiKgVDm-34" parent="w0okvqclMt9qEUiKgVDm-28" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="是否选择考核对象(true:选填，false:手填): boolean" vertex="1">
           <mxGeometry height="26" width="320" y="156" as="geometry" />
         </mxCell>
-        <mxCell id="w0okvqclMt9qEUiKgVDm-36" parent="w0okvqclMt9qEUiKgVDm-28" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="考核月份: str" vertex="1">
+        <mxCell id="w0okvqclMt9qEUiKgVDm-35" parent="w0okvqclMt9qEUiKgVDm-28" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="选择考核对象id(选填的id): char(32)" vertex="1">
           <mxGeometry height="26" width="320" y="182" as="geometry" />
         </mxCell>
-        <mxCell id="w0okvqclMt9qEUiKgVDm-37" parent="w0okvqclMt9qEUiKgVDm-28" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="考核分数: int" vertex="1">
+        <mxCell id="w0okvqclMt9qEUiKgVDm-36" parent="w0okvqclMt9qEUiKgVDm-28" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="考核月份: str" vertex="1">
           <mxGeometry height="26" width="320" y="208" as="geometry" />
         </mxCell>
-        <mxCell id="w0okvqclMt9qEUiKgVDm-38" parent="w0okvqclMt9qEUiKgVDm-28" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="考核结果: str" vertex="1">
+        <mxCell id="w0okvqclMt9qEUiKgVDm-37" parent="w0okvqclMt9qEUiKgVDm-28" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="考核分数: int" vertex="1">
           <mxGeometry height="26" width="320" y="234" as="geometry" />
         </mxCell>
-        <mxCell id="w0okvqclMt9qEUiKgVDm-39" parent="w0okvqclMt9qEUiKgVDm-28" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="评分规则:json" vertex="1">
+        <mxCell id="w0okvqclMt9qEUiKgVDm-38" parent="w0okvqclMt9qEUiKgVDm-28" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="考核结果: str" vertex="1">
           <mxGeometry height="26" width="320" y="260" as="geometry" />
         </mxCell>
-        <mxCell id="w0okvqclMt9qEUiKgVDm-40" parent="w0okvqclMt9qEUiKgVDm-28" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="版本:int" vertex="1">
+        <mxCell id="w0okvqclMt9qEUiKgVDm-39" parent="w0okvqclMt9qEUiKgVDm-28" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="评分规则:json" vertex="1">
           <mxGeometry height="26" width="320" y="286" as="geometry" />
+        </mxCell>
+        <mxCell id="w0okvqclMt9qEUiKgVDm-40" parent="w0okvqclMt9qEUiKgVDm-28" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="版本:int" vertex="1">
+          <mxGeometry height="26" width="320" y="312" as="geometry" />
         </mxCell>
         <mxCell id="w0okvqclMt9qEUiKgVDm-32" edge="1" parent="1" source="w0okvqclMt9qEUiKgVDm-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="w0okvqclMt9qEUiKgVDm-5">
           <mxGeometry relative="1" as="geometry">
@@ -217,6 +220,12 @@
               <mxPoint x="550" y="409" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="a0dgbnI9D-hWbGn1KOsf-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Arial Normal&amp;quot;, Arial; font-size: 13px; text-align: left;&quot;&gt;花名册-管理人员&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" y="775" as="geometry" />
+        </mxCell>
+        <mxCell id="a0dgbnI9D-hWbGn1KOsf-5" edge="1" parent="1" source="w0okvqclMt9qEUiKgVDm-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="a0dgbnI9D-hWbGn1KOsf-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

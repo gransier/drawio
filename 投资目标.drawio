@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
+  <diagram name="第 1 页" id="6r3PX-6RALWYQiyEocVt">
+    <mxGraphModel dx="2492" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0Oq5j87s4xhG5GTcOkB1-3" edge="1" parent="1" source="0Oq5j87s4xhG5GTcOkB1-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0Oq5j87s4xhG5GTcOkB1-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="240" />
+              <mxPoint x="140" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Oq5j87s4xhG5GTcOkB1-5" edge="1" parent="1" source="0Oq5j87s4xhG5GTcOkB1-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0Oq5j87s4xhG5GTcOkB1-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0Oq5j87s4xhG5GTcOkB1-7" edge="1" parent="1" source="0Oq5j87s4xhG5GTcOkB1-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0Oq5j87s4xhG5GTcOkB1-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="240" />
+              <mxPoint x="700" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Oq5j87s4xhG5GTcOkB1-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(57, 58, 52); font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 13px; text-align: left; white-space-collapse: break-spaces; background-color: rgba(17, 17, 51, 0.02);&quot;&gt;科目列表&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="0Oq5j87s4xhG5GTcOkB1-9" edge="1" parent="1" source="0Oq5j87s4xhG5GTcOkB1-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0Oq5j87s4xhG5GTcOkB1-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0Oq5j87s4xhG5GTcOkB1-14" connectable="0" parent="0Oq5j87s4xhG5GTcOkB1-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="编辑" vertex="1">
+          <mxGeometry relative="1" x="-0.06" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Oq5j87s4xhG5GTcOkB1-15" edge="1" parent="1" source="0Oq5j87s4xhG5GTcOkB1-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0Oq5j87s4xhG5GTcOkB1-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0Oq5j87s4xhG5GTcOkB1-16" connectable="0" parent="0Oq5j87s4xhG5GTcOkB1-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="发布" vertex="1">
+          <mxGeometry relative="1" x="-0.18" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Oq5j87s4xhG5GTcOkB1-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(57, 58, 52); font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 13px; text-align: left; white-space-collapse: break-spaces; background-color: rgba(17, 17, 51, 0.02);&quot;&gt;总投资目标v0&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="0Oq5j87s4xhG5GTcOkB1-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(57, 58, 52); font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 13px; text-align: left; white-space-collapse: break-spaces; background-color: rgba(17, 17, 51, 0.02);&quot;&gt;年度投资目标表&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="0Oq5j87s4xhG5GTcOkB1-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(57, 58, 52); font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 13px; text-align: left; white-space-collapse: break-spaces; background-color: rgba(17, 17, 51, 0.02);&quot;&gt;月度投资目标表&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="640" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="0Oq5j87s4xhG5GTcOkB1-18" edge="1" parent="1" source="0Oq5j87s4xhG5GTcOkB1-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0Oq5j87s4xhG5GTcOkB1-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0Oq5j87s4xhG5GTcOkB1-20" connectable="0" parent="0Oq5j87s4xhG5GTcOkB1-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="历史版本" vertex="1">
+          <mxGeometry relative="1" x="-0.1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Oq5j87s4xhG5GTcOkB1-22" edge="1" parent="1" source="0Oq5j87s4xhG5GTcOkB1-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0Oq5j87s4xhG5GTcOkB1-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="560" />
+              <mxPoint x="414" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Oq5j87s4xhG5GTcOkB1-24" connectable="0" parent="0Oq5j87s4xhG5GTcOkB1-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;color: rgb(57, 58, 52); font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 13px; text-align: left; white-space: break-spaces; background-color: rgba(17, 17, 51, 0.02);&quot;&gt;按科目自动聚合（后台Job）&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.8068" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Oq5j87s4xhG5GTcOkB1-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(57, 58, 52); font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 13px; text-align: left; white-space-collapse: break-spaces; background-color: rgba(17, 17, 51, 0.02);&quot;&gt;总投资目标v1&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="0Oq5j87s4xhG5GTcOkB1-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(57, 58, 52); font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 13px; text-align: left; white-space-collapse: break-spaces; background-color: rgba(17, 17, 51, 0.02);&quot;&gt;总投资目标v0&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(57, 58, 52); font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 13px; text-align: left; white-space-collapse: break-spaces; background-color: rgba(17, 17, 51, 0.02);&quot;&gt;record&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-120" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="0Oq5j87s4xhG5GTcOkB1-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(57, 58, 52); font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 13px; text-align: left; white-space-collapse: break-spaces; background-color: rgba(17, 17, 51, 0.02);&quot;&gt;投资费用台账&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="640" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,68 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
+  <diagram name="第 1 页" id="fnVX4tZKm0zka-i2hxrc">
+    <mxGraphModel dx="1148" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_xV-Jh-x59DL_XBk-EZ5-8" edge="1" parent="1" source="_xV-Jh-x59DL_XBk-EZ5-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_xV-Jh-x59DL_XBk-EZ5-6" edge="1" parent="1" source="_xV-Jh-x59DL_XBk-EZ5-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_xV-Jh-x59DL_XBk-EZ5-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_xV-Jh-x59DL_XBk-EZ5-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="AI问答" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_xV-Jh-x59DL_XBk-EZ5-10" edge="1" parent="1" source="_xV-Jh-x59DL_XBk-EZ5-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_xV-Jh-x59DL_XBk-EZ5-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_xV-Jh-x59DL_XBk-EZ5-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Agent-意图识别" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="_xV-Jh-x59DL_XBk-EZ5-18" edge="1" parent="1" source="_xV-Jh-x59DL_XBk-EZ5-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="400" />
+              <mxPoint x="380" y="400" />
+            </Array>
+            <mxPoint x="380" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_xV-Jh-x59DL_XBk-EZ5-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="AI知识库&lt;div&gt;RAG&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="_xV-Jh-x59DL_XBk-EZ5-15" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_xV-Jh-x59DL_XBk-EZ5-14" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="330" />
+              <mxPoint x="220" y="330" />
+            </Array>
+            <mxPoint x="220" y="290" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_xV-Jh-x59DL_XBk-EZ5-17" edge="1" parent="1" source="_xV-Jh-x59DL_XBk-EZ5-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_xV-Jh-x59DL_XBk-EZ5-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="400" />
+              <mxPoint x="380" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_xV-Jh-x59DL_XBk-EZ5-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="项目智能问答&lt;div&gt;MCP(Sql...)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="_xV-Jh-x59DL_XBk-EZ5-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Base-Agent" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="_xV-Jh-x59DL_XBk-EZ5-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="业务数据" vertex="1">
+          <mxGeometry height="30" width="60" x="190" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="_xV-Jh-x59DL_XBk-EZ5-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;article class=&quot;4ever-article&quot;&gt;&lt;br/&gt;&lt;span data-type=&quot;text&quot;&gt;制度规范流程知识&lt;/span&gt;&lt;/article&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="510" y="265" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

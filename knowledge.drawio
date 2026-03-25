@@ -66,7 +66,7 @@
         <mxCell id="49QWPIGe4mWTRocAXeDL-24" edge="1" parent="1" source="49QWPIGe4mWTRocAXeDL-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="49QWPIGe4mWTRocAXeDL-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="49QWPIGe4mWTRocAXeDL-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="MinerU-2.5.3&lt;div&gt;文件转mk&lt;/div&gt;" vertex="1">
+        <mxCell id="49QWPIGe4mWTRocAXeDL-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;rounded=0;" value="MinerU-2.5.3&lt;div&gt;文件转mk&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="100" x="330" y="250" as="geometry" />
         </mxCell>
         <mxCell id="49QWPIGe4mWTRocAXeDL-34" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="&lt;article class=&quot;4ever-article&quot;&gt;&lt;br/&gt;&lt;span data-type=&quot;text&quot;&gt;DeepSeek-R1-Distill-Qwen-14B&lt;/span&gt;&lt;/article&gt;" vertex="1">

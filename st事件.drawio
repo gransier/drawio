@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
+  <diagram name="第 1 页" id="4DndLv4WQzy7NmGyIzVq">
+    <mxGraphModel dx="1426" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9KG9Giz6E8dMlyDuzNhW-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;article class=&quot;4ever-article&quot;&gt;&lt;span data-type=&quot;text&quot;&gt;产品事件&lt;/span&gt;&lt;/article&gt;&lt;article class=&quot;4ever-article&quot;&gt;&lt;span data-type=&quot;text&quot;&gt;product_property_{产品编号}&lt;/span&gt;&lt;/article&gt;" vertex="1">
+          <mxGeometry height="60" width="240" x="40" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="9KG9Giz6E8dMlyDuzNhW-5" edge="1" parent="1" source="9KG9Giz6E8dMlyDuzNhW-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9KG9Giz6E8dMlyDuzNhW-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9KG9Giz6E8dMlyDuzNhW-6" connectable="0" parent="9KG9Giz6E8dMlyDuzNhW-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="超表" vertex="1">
+          <mxGeometry relative="1" x="-0.1" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9KG9Giz6E8dMlyDuzNhW-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;article class=&quot;4ever-article&quot;&gt;&lt;span data-type=&quot;text&quot;&gt;设备&lt;/span&gt;&lt;/article&gt;&lt;article class=&quot;4ever-article&quot;&gt;&lt;span data-type=&quot;text&quot;&gt;device_property_{设备编号}&lt;/span&gt;&lt;/article&gt;" vertex="1">
+          <mxGeometry height="60" width="240" x="40" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="9KG9Giz6E8dMlyDuzNhW-9" edge="1" parent="1" source="9KG9Giz6E8dMlyDuzNhW-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9KG9Giz6E8dMlyDuzNhW-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9KG9Giz6E8dMlyDuzNhW-10" connectable="0" parent="9KG9Giz6E8dMlyDuzNhW-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="依赖" vertex="1">
+          <mxGeometry relative="1" x="-0.1091" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9KG9Giz6E8dMlyDuzNhW-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;article class=&quot;4ever-article&quot;&gt;&lt;span data-type=&quot;text&quot;&gt;产品事件&lt;/span&gt;&lt;/article&gt;&lt;article class=&quot;4ever-article&quot;&gt;&lt;span data-type=&quot;text&quot;&gt;product_&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;event_&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;{event_name}_{产品编号}&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/article&gt;" vertex="1">
+          <mxGeometry height="60" width="290" x="390" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="9KG9Giz6E8dMlyDuzNhW-7" edge="1" parent="1" source="9KG9Giz6E8dMlyDuzNhW-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9KG9Giz6E8dMlyDuzNhW-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9KG9Giz6E8dMlyDuzNhW-8" connectable="0" parent="9KG9Giz6E8dMlyDuzNhW-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="超表" vertex="1">
+          <mxGeometry relative="1" x="-0.0333" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9KG9Giz6E8dMlyDuzNhW-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;article class=&quot;4ever-article&quot;&gt;&lt;article class=&quot;4ever-article&quot;&gt;&lt;span data-type=&quot;text&quot;&gt;设备事件&lt;/span&gt;&lt;/article&gt;&lt;article class=&quot;4ever-article&quot;&gt;&lt;span data-type=&quot;text&quot;&gt;device_&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;event_&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;{event_name}_{设备编号}&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/article&gt;&lt;/article&gt;" vertex="1">
+          <mxGeometry height="60" width="290" x="390" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="9KG9Giz6E8dMlyDuzNhW-11" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="一个产品可以有多个事件" vertex="1">
+          <mxGeometry height="80" width="120" x="620" y="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
